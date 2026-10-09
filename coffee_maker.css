@@ -1,0 +1,49 @@
+
+/*    html, body {
+      height: 100%;
+      margin: 0;
+    } */
+
+/*    body {
+      display: flex;
+      flex-direction: column;
+
+      font-family: monospace;
+      font-size: 1rem;
+
+      background: #111;
+      color: #ddd;
+    } */
+
+#output {
+    flex: 1;
+
+    overflow-y: auto;
+    white-space: pre-wrap;
+
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+#command-area {
+    display: flex;
+
+    border-top: 1px solid #555;
+    padding: 0.75em;
+}
+
+#prompt {
+    margin-right: 0.5em;
+}
+
+#command {
+    flex: 1;
+
+    font: inherit;
+    color: inherit;
+    background: inherit;
+
+    border: none;
+    outline: none;
+}
+/* end of file */
