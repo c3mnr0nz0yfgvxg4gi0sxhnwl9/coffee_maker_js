@@ -222,6 +222,8 @@ Desc[CLEAN_MUG] =
 Desc[DINING_ROOM] =
   "You are in the dining room.  There's a wooden table in the center" +
   " of the room.  The kitchen is to the south.";
+Desc[DIRTY_MUG] = "It's a coffee mug.  It's structurally sound but could use" +
+  "a washing before anyone drinks from it.";
 Desc[DROP_VERB] =
   "This is the object that implements the Drop action.  You should" +
   " no be seeing this.";
