@@ -22,11 +22,11 @@ east
 down
 take bag
 search bag
+up
 
 MAKE THE COFFEE
 ---------------
 
-up
 wash mug
 wash funnel
 drop kettle
