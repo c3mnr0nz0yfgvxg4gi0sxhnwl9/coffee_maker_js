@@ -62,16 +62,12 @@ let TURN_COUNT = 0;
 // It's okay if a Thing appears more than once, but of course
 // a word may occur only once or never.
 //
-// I've sorted the entries.  The Ada version of Coffee Maker
-// relied on that (or would have, if I had implemented binary
+// The Ada version of Coffee Maker relied on the table being
+// sorted (or it would have, if I had implemented binary
 // search through the words).  In JavaScript, we'll let the
-// language's associative array implementation do the search
+// language's key/value (object) implementation do the search
 // for us; we'll assume it's efficient.  So we needn't sort
 // the words.  But I did anyway.
-//
-// Why did I express this as an empty array followed by a bunch
-// of assignments?  Why didn't I specify a JavaScript object?
-// I don't know.  Seriously.  I don't know.  Just felt right.
 //
 let WORDS = {
   "": UNSUPPLIED,
